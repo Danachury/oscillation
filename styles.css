@@ -1,0 +1,32 @@
+@import 'keyframes.css';
+@import 'rice-line.css';
+@import 'square.css';
+@import 'dot.css';
+
+:root {
+    --square-size: 400px;
+    --dot-size: 20px;
+    --dot-color: white;
+    --circle-radius: 50%;
+    --animation-interval: .10s;
+    --vertical-initial-time: .50s;
+    --horizontal-initial-time: 0s;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    align-items: center;
+    background: navy;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    height: var(--square-size);
+    width: var(--square-size);
+}

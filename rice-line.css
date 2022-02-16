@@ -1,0 +1,16 @@
+.race-line {
+    background: whitesmoke;
+    height: 1px;
+    width: 100%;
+    position: relative;
+}
+
+.race-line.horizontal {
+    top: 50%;
+    transform: rotate(0);
+}
+
+.race-line.vertical {
+    top: 50%;
+    transform: rotate(90deg);
+}

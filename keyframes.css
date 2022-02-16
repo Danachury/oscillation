@@ -1,0 +1,9 @@
+@keyframes oscillate {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: calc(100% - var(--dot-size));
+    }
+}

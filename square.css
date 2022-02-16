@@ -1,0 +1,24 @@
+.square {
+    height: var(--square-size);
+    width: var(--square-size);
+    position: relative;
+}
+
+.square.orientation-0 {
+    /* Default styling */
+}
+
+.square.orientation-22 {
+    top: calc(var(--square-size) * -1);
+    transform: rotate(22.5deg);
+}
+
+.square.orientation-45 {
+    top: calc(var(--square-size) * -2);
+    transform: rotate(45deg);
+}
+
+.square.orientation-67 {
+    top: calc(var(--square-size) * -3);
+    transform: rotate(67.5deg);
+}
